@@ -1,7 +1,7 @@
 # SARV Infotech - Web Development Internship
 
 ## Project
-Personal Portfolio Website - Level 1
+Calculator - Level 1, Tribute Page - Level 2
 
 ## Developer
 SAURABH SUMAN
@@ -14,18 +14,8 @@ Web Development
 - CSS3
 - JavaScript
 
-## Features
-- Responsive navigation
-- Hero section
-- About section
-- Skills section
-- Projects section
-- Resume download
-- Contact section
-- Mobile-friendly layout
-
 ## How to run
 Open `index.html` in a web browser.
 
 ## Internship requirement
-This project is prepared according to the Level 1 Portfolio task in the SARV Infotech Web Development Internship brief.
+This project is prepared according to the Level 1 (Calculator task) and Level 2 (Tribute page task) in the SARV Infotech Web Development Internship brief.
