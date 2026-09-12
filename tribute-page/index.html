@@ -1,75 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bhagat Singh | Tribute Page</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="hero">
-  <div>
-    <p class="small-title">A TRIBUTE PAGE</p>
-    <h1>Bhagat Singh</h1>
-    <p class="subtitle">A young revolutionary who became a symbol of courage and sacrifice.</p>
-    <a href="#about" class="btn">Explore His Life</a>
-  </div>
-</header>
 
-<main>
-<section id="about" class="section">
-  <div class="section-title"><span>01</span><h2>About Bhagat Singh</h2></div>
-  <div class="about-box">
-    <div class="photo-box">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Bhagat_Singh_1929.jpg" alt="Bhagat Singh">
+    <div class="calculator">
+
+        <h1>Simple Calculator</h1>
+
+        <!-- Calculator Display -->
+        <input type="text" id="display" value="0" readonly>
+
+        <!-- Calculator Buttons -->
+        <div class="buttons">
+
+            <button class="clear" id="clear">C</button>
+            <button class="operator" data-value="/">÷</button>
+            <button class="operator" data-value="*">×</button>
+            <button class="operator" data-value="-">−</button>
+
+            <button class="number" data-value="7">7</button>
+            <button class="number" data-value="8">8</button>
+            <button class="number" data-value="9">9</button>
+            <button class="operator" data-value="+">+</button>
+
+            <button class="number" data-value="4">4</button>
+            <button class="number" data-value="5">5</button>
+            <button class="number" data-value="6">6</button>
+            <button class="equal" id="equal">=</button>
+
+            <button class="number" data-value="1">1</button>
+            <button class="number" data-value="2">2</button>
+            <button class="number" data-value="3">3</button>
+            <button class="number zero" data-value="0">0</button>
+
+            <button class="number" data-value=".">.</button>
+
+        </div>
+
+    
+
     </div>
-    <div>
-      <p>Bhagat Singh was an Indian revolutionary and one of the most remembered figures of India's freedom movement. He was known for his courage, strong ideas and dedication to India's independence.</p>
-      <p>He believed that young people could play an important role in changing society. His life and sacrifice continue to inspire students and citizens across India.</p>
-    </div>
-  </div>
-</section>
 
-<section class="section light">
-  <div class="section-title"><span>02</span><h2>Early Life</h2></div>
-  <p class="wide-text">Bhagat Singh was born on 28 September 1907 in Banga, in the Punjab region. From an early age, he was interested in India's freedom struggle and developed a strong sense of patriotism. He later became involved in revolutionary activities and writings.</p>
-</section>
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
 
-<section class="section">
-  <div class="section-title"><span>03</span><h2>Important Timeline</h2></div>
-  <div class="timeline">
-    <div class="timeline-item"><div class="year">1907</div><div><h3>Birth</h3><p>Bhagat Singh was born on 28 September 1907 in Banga, Punjab region.</p></div></div>
-    <div class="timeline-item"><div class="year">1926</div><div><h3>Naujawan Bharat Sabha</h3><p>He became associated with the Naujawan Bharat Sabha, an organisation of young people.</p></div></div>
-    <div class="timeline-item"><div class="year">1928</div><div><h3>Revolutionary Activities</h3><p>He became increasingly active in the revolutionary movement and worked with fellow revolutionaries.</p></div></div>
-    <div class="timeline-item"><div class="year">1929</div><div><h3>Central Legislative Assembly</h3><p>Bhagat Singh and Batukeshwar Dutt threw non-lethal bombs in the Central Legislative Assembly as a political protest.</p></div></div>
-    <div class="timeline-item"><div class="year">1931</div><div><h3>Martyrdom</h3><p>Bhagat Singh, Rajguru and Sukhdev were executed on 23 March 1931.</p></div></div>
-  </div>
-</section>
-
-<section class="section light">
-  <div class="section-title"><span>04</span><h2>His Contribution</h2></div>
-  <div class="cards">
-    <div class="card"><h3>Courage</h3><p>He showed remarkable courage while facing colonial authority and imprisonment.</p></div>
-    <div class="card"><h3>Ideas</h3><p>His writings and political ideas encouraged young people to think about freedom and social change.</p></div>
-    <div class="card"><h3>Inspiration</h3><p>His life became a lasting source of inspiration for generations of Indians.</p></div>
-  </div>
-</section>
-
-<section class="quote-section">
-  <p class="quote">“They may kill me, but they cannot kill my ideas.”</p>
-  <p class="quote-note">— Commonly attributed to Bhagat Singh</p>
-</section>
-
-<section class="section">
-  <div class="section-title"><span>05</span><h2>Remembering Bhagat Singh</h2></div>
-  <p class="wide-text">Bhagat Singh's short life left a deep impact on India's freedom movement. His courage, sacrifice and commitment to his ideas continue to make him an important figure in Indian history.</p>
-</section>
-</main>
-
-<footer>
-<p>Tribute Page • Web Development Internship Project</p>
-<p>© <span id="year"></span> SARV Infotech Project</p>
-</footer>
-<script src="script.js"></script>
 </body>
 </html>
