@@ -1,0 +1,200 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f4efe2;
+
+    color: #333;
+
+    line-height: 1.7;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+
+    font-size: 44px;
+
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 19px;
+
+    font-style: italic;
+}
+
+
+/* Main */
+
+main {
+    width: 80%;
+
+    max-width: 900px;
+
+    margin: 30px auto;
+}
+
+
+/* Image Section */
+
+.image-section {
+    background-color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border-radius: 12px;
+}
+
+.image-section img {
+    width: 280px;
+
+    max-width: 100%;
+
+    border-radius: 10px;
+
+    border: 5px solid #d49a00;
+}
+
+
+/* Content Sections */
+
+.content {
+    background-color: white;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border-radius: 12px;
+}
+
+
+/* Headings */
+
+h2 {
+    font-family: Georgia, serif;
+
+    color: #8b0000;
+
+    font-size: 30px;
+
+    margin-bottom: 18px;
+}
+
+
+/* Paragraphs */
+
+p {
+    margin-bottom: 15px;
+}
+
+
+/* Qualities */
+
+.qualities {
+    background-color: #fff3d6;
+}
+
+.qualities strong {
+    color: #8b0000;
+}
+
+
+/* Tribute */
+
+.tribute {
+    background-color: #8b0000;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px;
+
+    margin-bottom: 30px;
+
+    border-radius: 12px;
+}
+
+.tribute h2 {
+    color: white;
+}
+
+.tribute p {
+    font-family: Georgia, serif;
+
+    font-style: italic;
+
+    font-size: 19px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .image-section img {
+        width: 220px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+}
